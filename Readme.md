@@ -7,3 +7,4 @@ An iOS app that records your voice and plays it back with different effects appl
 - Play with Different Speeds
 - Chipmunk Style
 - Darthvader
+`
