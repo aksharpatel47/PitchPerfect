@@ -14,6 +14,7 @@
 		D4FFF7B81CB35C8D00BE10F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4FFF7B61CB35C8D00BE10F3 /* LaunchScreen.storyboard */; };
 		D4FFF7C31CB35C8D00BE10F3 /* PitchPerfectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FFF7C21CB35C8D00BE10F3 /* PitchPerfectTests.swift */; };
 		D4FFF7CE1CB35C8D00BE10F3 /* PitchPerfectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FFF7CD1CB35C8D00BE10F3 /* PitchPerfectUITests.swift */; };
+		D4FFF7DC1CB35D4D00BE10F3 /* Readme.md in Sources */ = {isa = PBXBuildFile; fileRef = D4FFF7DB1CB35D4D00BE10F3 /* Readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D4FFF7C91CB35C8D00BE10F3 /* PitchPerfectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PitchPerfectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4FFF7CD1CB35C8D00BE10F3 /* PitchPerfectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PitchPerfectUITests.swift; sourceTree = "<group>"; };
 		D4FFF7CF1CB35C8D00BE10F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4FFF7DB1CB35D4D00BE10F3 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		D4FFF7A11CB35C8C00BE10F3 = {
 			isa = PBXGroup;
 			children = (
+				D4FFF7DB1CB35D4D00BE10F3 /* Readme.md */,
 				D4FFF7AC1CB35C8D00BE10F3 /* PitchPerfect */,
 				D4FFF7C11CB35C8D00BE10F3 /* PitchPerfectTests */,
 				D4FFF7CC1CB35C8D00BE10F3 /* PitchPerfectUITests */,
@@ -258,6 +261,7 @@
 			files = (
 				D4FFF7B01CB35C8D00BE10F3 /* ViewController.swift in Sources */,
 				D4FFF7AE1CB35C8D00BE10F3 /* AppDelegate.swift in Sources */,
+				D4FFF7DC1CB35D4D00BE10F3 /* Readme.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
