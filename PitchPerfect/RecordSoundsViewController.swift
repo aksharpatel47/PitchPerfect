@@ -9,7 +9,7 @@
 import UIKit
 import AVFoundation
 
-class RecordSoundsViewController: UIViewController {
+final class RecordSoundsViewController: UIViewController {
   
   // MARK: Outlets
   @IBOutlet weak var recordingLabel: UILabel!
@@ -61,6 +61,7 @@ class RecordSoundsViewController: UIViewController {
       return
     }
     
+    // Setting up the AudioSession and Recorder
     let session = AVAudioSession.sharedInstance()
     do {
       try session.setCategory(AVAudioSessionCategoryPlayAndRecord)
