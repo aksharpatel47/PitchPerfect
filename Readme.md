@@ -4,7 +4,8 @@ An iOS app that records your voice and plays it back with different effects appl
 
 ## Effects available
 
-- Play with Different Speeds
+- Play with Fast and Slow Speeds
 - Chipmunk Style
 - Darthvader
-`
+- Echo
+- Reverb
